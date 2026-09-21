@@ -1,8 +1,7 @@
 # 🏥 App Saúde & Consulta (S&C)
 
-## 👥 Integrantes do Grupo
-* Nome do Aluno 1 - Matrícula
-* Nome do Aluno 2 - Matrícula
+## 👥 Integrante
+* Kauê de Souza Marinho
 
 ## 📝 Descrição do Projeto
 O S&C é um aplicativo mobile desenvolvido com React Native, Expo e TypeScript. A proposta é facilitar a busca e o agendamento de consultas médicas e veterinárias.
