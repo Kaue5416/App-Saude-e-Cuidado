@@ -12,15 +12,6 @@ O S&C é um aplicativo mobile desenvolvido com React Native, Expo e TypeScript. 
 3. Abra o aplicativo **Expo Go** no celular e leia o QR Code.
 4. Link das telas do Figma: https://www.figma.com/design/Syu9uPGxsuJKyZzWRMuDRa/S-C?node-id=0-1&t=pEZoB5x5PJ6EF7eT-1
 
-## 🚀 Funcionalidades Principais
-
-- [x] **Autenticação de Utilizador:** Ecrãs de Splash, Login e Cadastro de novos utilizadores.
-- [x] **Exploração de Serviços:** Listagem de clínicas e profissionais (médicos e veterinários).
-- [x] **Agendamento Dinâmico:** Seleção de horários disponíveis e confirmação de consultas.
-- [x] **Gestão de Agendamentos:** Visualização de consultas marcadas com opções para **reagendar horário** ou **cancelar/apagar**.
-- [x] **Perfil do Utilizador:** Exibição dinâmica do nome e e-mail cadastrado na aplicação.
-- [x] **Navegação Persistente:** Barra de navegação inferior (*Bottom Navigation*) para acesso rápido às secções principais.
-
 ## 📌 Diagrama de Casos de Uso
 * **Ator Principal:** Usuário/Paciente.
 * **Casos de Uso Principais:**
