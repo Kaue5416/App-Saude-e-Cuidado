@@ -27,7 +27,7 @@ export const AgendamentoScreen: React.FC<Props> = ({ editingId, selectedDoctor, 
 
     <Text style={styles.sectionHeader}>Selecione um horário:</Text>
     <View style={styles.timeGrid}>
-      {['13:30', '14:30', '15:00', '15:30', '16:00'].map((time) => (
+      {['13:30', '14:30', '15:00', '15:30', '16:00', '16:30'].map((time) => (
         <TouchableOpacity 
           key={time} 
           style={[styles.timeSlot, selectedTime === time && styles.timeSlotSelected]}
