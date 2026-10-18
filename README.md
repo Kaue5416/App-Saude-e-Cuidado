@@ -10,7 +10,7 @@ O S&C é um aplicativo mobile desenvolvido com React Native, Expo e TypeScript. 
 1. Instale as dependências: `npm install`
 2. Execute o projeto no Expo Go: `npx expo start`
 3. Abra o aplicativo **Expo Go** no celular e leia o QR Code.
-4. Link das telas do Figma: https://www.figma.com/design/Syu9uPGxsuJKyZzWRMuDRa/S-C?node-id=0-1&t=pEZoB5x5PJ6EF7eT-1 
+4. Link das telas do Figma: https://www.figma.com/design/Syu9uPGxsuJKyZzWRMuDRa/S-C?node-id=0-1&t=pEZoB5x5PJ6EF7eT-1
 
 ## 📌 Diagrama de Casos de Uso
 * **Ator Principal:** Usuário/Paciente.
