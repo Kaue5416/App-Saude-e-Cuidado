@@ -31,4 +31,6 @@ O S&C é um aplicativo mobile desenvolvido com React Native, Expo e TypeScript. 
 
 * UC08 - Atualizar Perfil do Usuário: Permite ao paciente editar e manter atualizadas as suas informações pessoais e dados cadastrais no app.
 
-![Ícone com texto](./assets/imagem.jpg)
+* UC09 - Visualizar Histórico de Consultas: Exibe o registro de consultas passadas (concluídas ou canceladas).
+
+![Ícone com texto](./assets/imagem-2.jpg)
