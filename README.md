@@ -34,3 +34,39 @@ O S&C é um aplicativo mobile desenvolvido com React Native, Expo e TypeScript. 
 * UC09 - Visualizar Histórico de Consultas: Exibe o registro de consultas passadas (concluídas ou canceladas).
 
 ![Ícone com texto](./assets/imagem-2.jpg)
+
+
+## 📐 Diagrama de Classes (Domínio do Back-end)
+
+```text
++---------------------------------------+
+|                Usuario                |
++---------------------------------------+
+| - id: UUID                            |
+| - nome: String                        |
+| - email: String                       |
+| - senha: String                       |
+| - telefone: String                    |
++---------------------------------------+
+| + cadastrar()                         |
+| + autenticar()                        |
+| + atualizarPerfil()                   |
++---------------------------------------+
+                    | 1
+                    |
+                    | *
++---------------------------------------+         +---------------------------------------+
+|               Consulta                |         |                Medico                 |
++---------------------------------------+         +---------------------------------------+
+| - id: UUID                            |         | - id: UUID                            |
+| - usuarioId: UUID                     |*       1| - nome: String                        |
+| - medicoId: UUID                      |---------| - especialidade: String               |
+| - dataHora: DateTime                  |         | - crm: String                         |
+| - status: String                      |         | - valorConsulta: Decimal              |
+| - observacoes: String                 |         +---------------------------------------+
++---------------------------------------+         | + listarDisponibilidade()             |
+| + agendar()                           |         +---------------------------------------+
+| + reagendar()                         |
+| + cancelar()                          |
++---------------------------------------+
+```
